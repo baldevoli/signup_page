@@ -1,0 +1,11 @@
+.header{
+    width: clamp(400px, 40%, 650px);
+
+    display: flex;
+    flex-direction: column;
+
+    background: 
+        url(./img/bg_pine.jpg)
+        top right / cover
+        var(--dark-green);
+}
