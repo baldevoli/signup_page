@@ -1,11 +1,13 @@
-.header{
-    width: clamp(400px, 40%, 650px);
-
+.img {
     display: flex;
-    flex-direction: column;
-
-    background: 
-        url(./img/halie-west-25xggax4bSA-unsplash.jpg)
-        top right / cover
-        var(--dark-green);
-}
+    width: 40%;
+    height: 94%;
+    margin: 1% 1% 1% 1%;
+    background: url(./assets/halie-west-25xggax4bSA-unsplash.jpg) no-repeat
+      center;
+    background-size: cover;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
